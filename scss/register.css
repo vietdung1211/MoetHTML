@@ -1,0 +1,197 @@
+.register {
+  background: rgba(122, 149, 173, 0.23);
+  position: relative;
+  min-height: 985px;
+}
+
+.register .box-register {
+  width: 631px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.register .box-register p.title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ff7200;
+  margin-bottom: 5px;
+}
+
+.register .box-register p.title-1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #002252;
+}
+
+.register .box-register p.title-2 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 26px;
+  color: #000000;
+}
+
+.register .box-register input {
+  background: #ffffff;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  width: 100%;
+  padding: 11px 9px;
+  margin-bottom: 11px;
+}
+
+.register .box-register p.alert-1 {
+  margin: 0px 0 6px 0;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ff0000;
+}
+
+.register .box-register .row-input {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 56px;
+}
+
+.register .box-register .btn-sex {
+  height: 41px;
+  background: #ffffff;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  width: 100%;
+  padding: 11px 9px;
+  margin-bottom: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register .box-register .btn-sex label {
+  width: 80px;
+  margin: 0;
+}
+
+.register .box-register .btn-sex .select {
+  width: calc(100% - 80px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register .box-register .btn-sex input {
+  width: auto;
+  margin: 0 8px 0 0;
+}
+
+.register .regulation {
+  position: relative;
+}
+
+.register .regulation .box-regulation {
+  padding: 40px 35px 0 25px;
+  background: #ffffff;
+  border: 1px solid #c0c0c0;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.register .regulation .box-regulation p.desc {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.register .regulation .title-regulation {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #177ddc;
+  margin-bottom: 8px;
+  position: absolute;
+  top: 14px;
+  left: 25px;
+  background: #fff;
+  width: 90%;
+}
+
+.register .btn-check {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 13px 0;
+}
+
+.register .btn-check input {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  margin-right: 14px;
+}
+
+.register .btn-resgister {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.register .btn-resgister button {
+  background: #1890ff;
+  border: 1px solid #1890ff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 208px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.register .btn-resgister p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1890ff;
+}
+
+.content {
+  margin-top: 0;
+}
+/*# sourceMappingURL=register.css.map */
