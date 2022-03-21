@@ -1,0 +1,138 @@
+.content {
+    margin-top: 70px;
+   
+}
+
+.content-title h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #164C7E;
+    margin-bottom: 20px;
+}
+
+.way-below {
+    padding-bottom: 80px;
+}
+
+.content-title__main {
+
+}
+
+.content-title__main-img {
+
+}
+
+.content-title__main-panagrapt {
+    margin-top: 105px;
+    margin-left: 30px;
+}
+
+.content-title__main-panagrapt h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #101010;
+}
+
+.content-title__main-panagrapt p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #404040;
+}
+
+.content-title__main-see {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.content-statis {
+    background-color: #F6F6F6;
+    margin-top: 80px;
+}
+
+.content-statis__title {
+    margin-top: 60px;
+
+}
+
+.content-statis__title h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #101010;
+    margin-left: 10px;
+}
+
+.content-statis__title-list {
+    margin-top: 80px;
+}
+
+.content-statis__title-list li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #A2A2A2;
+    padding: 10px 0;
+}
+
+.content-statis__title-item {
+    color: #101010 !important;
+    text-decoration: underline;
+}
+
+.content-statis__img {
+    display: flex;
+    margin-top: 160px;
+}
+
+.content-statis__img a {
+    margin-right: 30px;
+}
+
+
+.content-lesson {
+    margin-top: 50px;
+    margin-left: 320px;
+
+}
+
+.content-lesson__list {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.content-lesson__item {
+    background-color: #164C7E;
+
+    color: #fff !important;
+}
+
+.content-lesson__list li {
+    list-style-type: none;
+    padding-right: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    border-radius: 2px;
+
+    color: #101010;
+}
+
+.content-lesson__direction {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
