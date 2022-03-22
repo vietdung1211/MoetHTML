@@ -5,19 +5,72 @@
 /* banner */
 .main__banner {
     display: flex;
+    position: relative;
 }
 
-.main__banner-img {
-    width: 70%;
+.banner__blue {
+    position: absolute;
 }
 
-.main__banner-right {
+.banner__darkblue {
+    position: absolute;
+    left: 5px;
+}
+
+.banner__drec {
+    position: absolute;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
     display: flex;
+    color: #FFFFFF;
+    text-transform: uppercase;
     flex-direction: column;
+    top: 155px;
+    left: 167px;
 }
 
-.banner__right-img {
-    height: 281px;
+.banner__heading {
+    font-size:55px;
+}
+
+.banner__noti {
+    position: absolute;
+    top: 300px;
+    left: 201px;
+    width: 641px;
+}
+
+.banner__noti-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.banner__noti-drec {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #F1F1F1;
+}
+
+.banner__btn {
+    position: absolute;
+    top: 450px;
+    left: 244px;
+}
+
+.banner__btn-click {
+    background: #177DDC;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
 }
 
 /* Notifications */
@@ -116,6 +169,7 @@
     line-height: 18px;
     color: #737373;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .container__header-heading--color {
@@ -160,6 +214,7 @@
     border-radius: 2px;
     border: none;
     color: #fff;
+    cursor: pointer;
 }
 
 .container__search-info {
@@ -192,6 +247,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
+    cursor: pointer;
 }
 
 .search__history-text {
@@ -230,6 +286,7 @@
 
 .search__img {
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .search__img-item {
@@ -449,6 +506,12 @@
     font-size: 14px;
     line-height: 22px;
     color: rgba(0, 0, 0, 0.45);
+}
+
+.container__img-highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* video */

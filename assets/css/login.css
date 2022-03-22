@@ -1,0 +1,51 @@
+.list__menu-item {
+  margin: 46px 0 27px;
+}
+
+.content__header {
+  background: #D7E3ED;
+  padding: 20px;
+}
+
+.container__list {
+  padding: 20px 0;
+}
+.container__list .container__columns {
+  background: #FEFEFE;
+  border: 1px solid #ECECEC;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 200px;
+  padding: 10px 28px;
+}
+.container__list .container__columns .container__columns-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container__list .container__columns .container__columns-drec {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #777777;
+  padding: 15px 0;
+  border-bottom: 1px solid #AFAFAF;
+}
+.container__list .container__columns .container__columns-down {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0071BB;
+}
+.container__list .container__columns .container__columns-down .container__columns-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=login.css.map */
