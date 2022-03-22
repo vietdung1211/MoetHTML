@@ -283,10 +283,13 @@
     color: #A2A2A2;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
+.courses__content {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.courses__content-info {
+    width: 25%;
 }
 
 .container__courses-columns {
@@ -333,7 +336,7 @@
 }
 
 .courses-img {
-    width: 100%;
+    width: 255px;
     margin: 25px 0;
 }
 
