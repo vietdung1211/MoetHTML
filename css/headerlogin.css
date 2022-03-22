@@ -1,0 +1,33 @@
+.remove {
+    display: none;
+}
+
+.position {
+    left: -36px;
+}
+
+.header-below__message {
+    position: absolute;
+    right: 512px;
+    top: 4px;
+}
+
+.header-below__notifi {
+    position: absolute;
+    right: 480px;
+    top: 4px;
+}
+
+.header-below__notifi-amount {
+    position: absolute;
+    right: -17px;
+    left: 5px;
+    top: -11px;
+}
+
+.header-below__avarta {
+    position: absolute;
+    right: 232px;
+    top: -9px;
+}
+
