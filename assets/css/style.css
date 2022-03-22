@@ -256,6 +256,8 @@
     font-size: 14px;
     line-height: 160%;
     color: #23263B;
+    display: flex;
+    align-items: center;
 }
 
 .search__history-icon {
@@ -344,13 +346,13 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 10px;
+    grid-gap: 40px;
 }
 
 .container__courses-columns {
     border: 1px solid #fff;
     box-shadow: 0 1px 3px rgb(189 189 189);
     border-radius: 4px;
-    margin:0 40px 40px 0;
     display: block;
 }
 
@@ -427,7 +429,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 .courses__footer-drec {
@@ -439,6 +441,7 @@
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.02em;
+    border: none;
 }
 
 /* evaluate */
