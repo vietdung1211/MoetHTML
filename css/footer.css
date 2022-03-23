@@ -20,11 +20,15 @@ body {
 .distance {
     width: 1441px;
     margin: auto;
+    display: flex;
+    padding-top: 70px;
+    align-items: center;
+    justify-content:center;
 }
 
 .logo__dono {
-    padding-top: 70px;
-    width: 100%;
+    width: auto;
+    padding: 0 8px;
 }
 
 .footer-donors__boder {
@@ -47,8 +51,18 @@ body {
 }
 
 .footer-unit {
-    
+    margin-right: 40px;
 }
+
+.logo__dono-cancel {
+    margin-right: 0 !important;
+}
+
+.pd-top {
+    padding-top: 40px !important;
+}
+
+
 
 .background {
     background: #164C7E;
@@ -72,17 +86,33 @@ body {
     
 }
 
+.pd-bottom {
+    padding-bottom: 60px;
+}
+
 .mg-width {
-    margin-left: 120px;
+    padding-top: 0 !important;
 }
 
 .distance-xl {
-    margin-top: 70px;
+    width: 1441px;
     position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    justify-content: center;
+    
 }
 
 .distance-m {
     margin-top: 50px;
+}
+
+.img-size {
+    max-height: 80px;
+    object-fit: cover;
+    max-width: 110px;
 }
 
 .distance-bottom {
@@ -109,9 +139,15 @@ body {
 }
 
 .footer-donors__silver-img {
-    width: 1441px;
-    margin: 0 auto;
+    /* width: 1441px;
     padding-left: 10px;
+    margin-right: 30px; */
+    padding: 0 3px;
+    
+}
+
+.footer-donors__silver-img img {
+    padding: 0 12px;
 }
 
 .footer-infomation {
