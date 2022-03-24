@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/introduce.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -53,12 +54,12 @@
 
                 <div class="content">
                     <div class="container__left">
-                        <div class="container__header">
+                        <div class="container__header js-btn">
                             <span class="container__header-text">Học liệu số</span>
                             <img src="../assets/img/arrow_down.png" alt="" class="container__header-icon">
                         </div>
 
-                        <div class="container__block">
+                        <div class="container__block js-container">
                             <div class="dropdown">
                                 <div class="container__block-list">
                                     <div class="container__list-left">
@@ -69,7 +70,7 @@
                                         50
                                     </div>
                                 </div>
-                                <div id="dropdown" class="container__list-courses js-slide">
+                                <div class="container__list-courses js-slide">
                                     <div class="list__courses-item">
                                         <img src="../assets/img/course1.png" alt="" class="list__courses-img" />
                                         <span class="list__courses-drec">Tiếng Anh</span>
@@ -100,7 +101,7 @@
                                         55
                                     </div>
                                 </div>
-                                <div id="dropdown" class="container__list-courses js-slide">
+                                <div class="container__list-courses js-slide">
                                     <div class="list__courses-item">
                                         <img src="../assets/img/course1.png" alt="" class="list__courses-img" />
                                         <span class="list__courses-drec">Tiếng Anh</span>
@@ -636,15 +637,35 @@
         tab.onclick = function() {
             this.classList.add('add')
             slide.classList.add('show')
-            // $('.dropdown.add').classList.toggleClass('add')
-            // $('.js-slide.show').classList.toggleClass('show')
+        if (window.screen.width >= 1024 && window.screen.width<= 1600) {
+            if (slide.style.display === "flex") {
+                slide.style.display = "none";
+            } else {
+                slide.style.display = "flex";
+            }
+        } else {
             if (slide.style.display === "block") {
                 slide.style.display = "none";
             } else {
                 slide.style.display = "block";
             }
         }
+        }
     })
+
+    const btn = $('.js-btn')
+    const box = $('.js-container')
+
+    function showBox() {
+        box.classList.add('active')
+        if (box.style.display === "block") {
+                box.style.display = "none";
+            } else {
+                box.style.display = "block";
+            }
+    }
+
+    btn.onclick = showBox
 </script>
 
 </html>

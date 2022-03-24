@@ -5,17 +5,25 @@
 }
 /* banner */
 .main__banner {
-    display: flex;
     position: relative;
+}
+
+.main__banner-img {
+    width: 100%;
 }
 
 .banner__blue {
     position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
 }
 
 .banner__darkblue {
     position: absolute;
+    top: -3px;
     left: 5px;
+    height: 100%;
 }
 
 .banner__drec {
@@ -222,9 +230,6 @@
     background:#fff;
     margin-top: 5px;
     box-shadow: 0px 8px 16px rgba(35, 38, 59, 0.25);
-    height: 400px;
-    left: calc(50% - 1083px/2 + 162.5px);
-    top: 1781px;
 }
 
 .container__search-content {
@@ -287,15 +292,13 @@
     margin-left: 5px;
 }
 
-.search__img {
-    margin-top: 10px;
-    cursor: pointer;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 0;
+    grid-gap: 10px;
 }
 
-.search__img-item {
-    width: 31%;
-    margin: 0px 6px;
-}
 /* list courses */
 .container__courses {
     padding: 56px 0;

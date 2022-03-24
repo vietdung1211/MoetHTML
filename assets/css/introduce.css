@@ -52,6 +52,7 @@
     max-height: 1111px;
     width: 25%;
     margin-right: 30px;
+    padding: 0;
 }
 
 .container__header {
@@ -68,13 +69,14 @@
     line-height: 30px;
     color: #F58634;
     text-transform: uppercase;
-    padding: 10px 0;
+    padding: 10px;
     border-bottom: 1px solid #F65050;
 }
 
 .container__header-icon {
     font-size: 30px;
     padding: 10px;
+    margin-right: 10px;
 }
 
 .container__block-list {
@@ -83,6 +85,21 @@
     align-items: center;
     padding: 10px 0 10px 10px;
     cursor: pointer;
+}
+
+
+.dropdown.add {
+    background: #E5E5E5;
+}
+
+.js-slide.show {
+    display: block;
+}
+
+.container__list-courses {
+    background: rgb(229, 229, 229);
+    padding: 10px;
+    display: none;
 }
 
 .container__block-list--border {
@@ -116,6 +133,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
 }
 
 .container__list-right--red {
@@ -155,8 +173,9 @@
     cursor: pointer;
 }
 
-.list__courses-item--color {
+.list__courses-item:hover {
     background: #EEF2F5;
+    font-weight:700;
 }
 
 .list__courses-drec {
@@ -168,13 +187,7 @@
 
 .list__courses-drec--color {
     font-weight: 700;
-}   
-
-.container__content-block {
-    background: #E5E5E5;
-    margin: 0 -10px;
-    padding-bottom: 10px;
-}   
+}      
 
 .list__courses-text {
     color: #f47000;
