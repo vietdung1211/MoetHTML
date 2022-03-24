@@ -1,0 +1,212 @@
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+.container-banner {
+  position: relative;
+}
+.container-banner__text {
+  position: absolute;
+  right: 130px;
+  top: 66px;
+}
+.container-banner__text h1 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 80px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
+}
+.container-banner__text span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #214D82;
+  display: block;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+.container-path {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.container-path p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.45);
+}
+.container-path span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.container .tutorial {
+  width: 78%;
+  background-color: #fff;
+}
+.container .tutorial__list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.container .tutorial__list-button button {
+  display: flex;
+  align-items: center;
+  padding: 10px 1px;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.016);
+}
+.container .tutorial__list-button button img {
+  margin-right: 31px;
+  margin-left: 72px;
+}
+.container .tutorial__list-button button span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #214D82;
+  display: block;
+  margin-right: 73px;
+}
+.container .tutorial__list-color button {
+  display: flex;
+  align-items: center;
+  padding: 10px 3px;
+  background: #1890FF;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.043);
+}
+.container .tutorial__list-color button img {
+  margin-right: 31px;
+  margin-left: 72px;
+}
+.container .tutorial__list-color button span {
+  margin-right: 73px;
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+.container .tutorial__tags {
+  margin-top: 22px;
+}
+.container .tutorial__tags-list {
+  margin: 0 11px 0 12px;
+}
+.container .tutorial__tags-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #E4E4E4;
+  border: 1px solid #0071BB;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.043);
+  padding: 11px 0;
+}
+.container .tutorial__tags-list-item .item {
+  margin-left: 28px;
+}
+.container .tutorial__tags-list-item .item span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #164C7E;
+}
+.container .tutorial__tags-list-item img {
+  margin-right: 13px;
+}
+.container .tutorial__tags-list .mg-item {
+  margin-top: 20px;
+}
+.container .tutorial__tags-list-diferent {
+  margin-top: 22px;
+  background: #FFFFFF;
+  border: 1px solid #0071BB;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.043);
+  margin-bottom: 25px;
+}
+.container .tutorial__tags-list-diferent .list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.container .tutorial__tags-list-diferent .list-item li {
+  margin-left: 28px;
+}
+.container .tutorial__tags-list-diferent .list-item li span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #164C7E;
+}
+.container .tutorial__tags-list-diferent .list-item img {
+  margin-right: 13px;
+}
+.container .tutorial__tags-list-diferent .panagrapt {
+  margin: 9px 54px 0 39px;
+}
+.container .tutorial__tags-list-diferent .panagrapt-item {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  text-align: justify;
+}
+.container .tutorial__tags-list-diferent .panagrapt .space {
+  padding: 190px 0;
+  background: #C4C4C4;
+  margin: 15px 7px 40px 7px;
+}
+.container .tutorial__tags-list-diferent .panagrapt-bottom {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+.container .tutorial__tags-list-attention {
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container .tutorial__tags-list-attention span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #646464;
+}
+.container .sidebar {
+  width: 22%;
+}
+.container .sidebar-tutorial {
+  margin-left: 28px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.container .sidebar-tutorial__item {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.container .sidebar-tutorial__item p {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  color: #AAAAAA;
+  height: 573px;
+}
+
+/*# sourceMappingURL=tutorial.css.map */

@@ -27,6 +27,11 @@ body {
     padding: 0 10px;
 }
 
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
 .header-top {
     margin-top: 5px;
     display: flex;
@@ -34,7 +39,7 @@ body {
 
 .header-top__logo {
     display: flex;
-    margin-left: 225px;
+    /* margin-left: 225px; */
     align-items: center;
   
 }
@@ -80,10 +85,12 @@ body {
     color: #fff;
 }
 
+
+
 .header-top__menu-phone {
     display: flex;
     align-items: center;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 .header-top__menu-phone a {

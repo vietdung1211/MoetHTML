@@ -206,4 +206,47 @@
     margin-left: 18px;
 }
 
+.header-list__width {
+    width: 11%;
+}
+
+@media (min-width:1024px) and (max-width:1574px) {
+    .header-top__menu-phone {
+        display: none;
+    }
+
+    .header-top__menu-icon {
+        display: none;
+    }
+
+    .header-top__logo {
+        margin-left: 47px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1659px) {
+    .header-below__search-button {
+        display: none;
+
+    }
+    .header-below__message {
+        display: none;
+    }
+
+    .header-below__notifi {
+        display: none;
+    }
+    .header-bottom__avarta {
+        display: none;
+    }
+
+    .header-below__menu-item {
+        margin-right: 20px;
+    }
+
+    .header-below__icon {
+        padding-right: 30px;
+        margin-left: 60px;
+    }
+
 
