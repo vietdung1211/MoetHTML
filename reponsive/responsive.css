@@ -93,6 +93,17 @@
 
 @media (min-width:320px) and (max-width:550px) {
 
+    .main__banner:before {
+        content: '';
+        background: #00000050;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
     .main__banner-img {
         height: 215px;
         object-fit: cover;
@@ -104,8 +115,7 @@
     .container__courses-slide,
     .banner__blue,
     .banner__darkblue,
-    .banner__noti,
-    .container__highlights {
+    .banner__noti {
         display: none;
     }
 
@@ -114,6 +124,7 @@
         font-size: 10px;
         left: 8%;
         text-shadow: 0 0 1px #000;
+        z-index: 111;
     }
 
     .banner__heading {
@@ -124,6 +135,7 @@
     .banner__btn {
         top: 60%;
         left: 10%;
+        z-index: 111;
     }
 
     .banner__btn-click {
@@ -197,5 +209,9 @@
     .container__highlights-text {
         font-size: 35px;
         padding-bottom: 20px;
+    }
+
+    .grid-columns {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
